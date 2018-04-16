@@ -28,7 +28,10 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'com.squareup.retrofit2:retrofit:2.0.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    // material dialog
     implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    // add circle image library
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
