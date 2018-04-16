@@ -5,7 +5,7 @@ import com.example.hendawy.newsapp.Utils.Constants;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class ApiClient {
+public class NewsApiClient {
 
     private static Retrofit retrofit = null;
 
