@@ -13,8 +13,8 @@ public class ListSourceViewHolder extends RecyclerView.ViewHolder implements Vie
 
     ItemClickListener itemClickListener;
 
-    TextView sourceTitle;
-    CircleImageView sourceImage;
+    public TextView sourceTitle;
+    public CircleImageView sourceImage;
 
     public ListSourceViewHolder(View itemView) {
         super(itemView);

@@ -1,9 +1,11 @@
 package com.example.hendawy.newsapp.Rest;
 
+import com.example.hendawy.newsapp.Utils.Constants;
+
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class IconBetterIdeaClient {
+public class RetrofitClient {
 
     private static Retrofit retrofit = null;
 
